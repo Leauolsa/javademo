@@ -7649,7 +7649,7 @@
             </configuration>
           </execution>
         </executions>
-        <configuration>
+        <!-- <configuration>
           <outputDirectory>/target/site</outputDirectory>
           <reportPlugins>
             <reportPlugin>
@@ -7657,7 +7657,7 @@
               <artifactId>maven-project-info-reports-plugin</artifactId>
             </reportPlugin>
           </reportPlugins>
-        </configuration>
+        </configuration> -->
       </plugin>
     </plugins>
   </build>
