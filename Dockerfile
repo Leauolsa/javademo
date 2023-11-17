@@ -9,7 +9,7 @@ WORKDIR /
 # RUN pwd
 # RUN mvn clean package
 
-
+RUN pwd
 
 #FROM library/tomcat
 USER root
