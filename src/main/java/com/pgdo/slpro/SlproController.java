@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class SlproController {
 
     @GetMapping("/")
-    public String home() {
-        return "home";
+    public String index() {
+        return "index";
     }
 
     @PostMapping("/submit")
