@@ -7122,7 +7122,7 @@
     <resources>
       <resource>
         <filtering>true</filtering>
-        <directory>\src\main\resources</directory>
+        <directory>/src/main/resources</directory>
         <includes>
           <include>**/application*.yml</include>
           <include>**/application*.yaml</include>
@@ -7130,7 +7130,7 @@
         </includes>
       </resource>
       <resource>
-        <directory>\src\main\resources</directory>
+        <directory>/src/main/resources</directory>
         <excludes>
           <exclude>**/application*.yml</exclude>
           <exclude>**/application*.yaml</exclude>
@@ -7140,10 +7140,10 @@
     </resources>
     <testResources>
       <testResource>
-        <directory>\src\test\resources</directory> 
+        <directory>/src/test/resources</directory> 
       </testResource>
     </testResources>
-    <directory>\target</directory>
+    <directory>/target</directory>
     <finalName>slpro-315</finalName>
     <pluginManagement>
       <plugins>
@@ -7170,7 +7170,7 @@
                 <verbose>true</verbose>
                 <dateFormat>yyyy-MM-dd'T'HH:mm:ssZ</dateFormat>
                 <generateGitPropertiesFile>true</generateGitPropertiesFile>
-                <generateGitPropertiesFilename>\target\classes/git.properties</generateGitPropertiesFilename>
+                <generateGitPropertiesFilename>/target/classes/git.properties</generateGitPropertiesFilename>
               </configuration>
             </execution>
           </executions>
@@ -7178,7 +7178,7 @@
             <verbose>true</verbose>
             <dateFormat>yyyy-MM-dd'T'HH:mm:ssZ</dateFormat>
             <generateGitPropertiesFile>true</generateGitPropertiesFile>
-            <generateGitPropertiesFilename>\out_put\3\slpro\target\classes/git.properties</generateGitPropertiesFilename>
+            <generateGitPropertiesFilename>/out_put/3/slpro/target/classes/git.properties</generateGitPropertiesFilename>
           </configuration>
         </plugin>
         <plugin>
@@ -7269,12 +7269,12 @@
                 <goal>verify</goal>
               </goals>
               <configuration>
-                <classesDirectory>\target\classes</classesDirectory>
+                <classesDirectory>/target/classes</classesDirectory>
               </configuration>
             </execution>
           </executions>
           <configuration>
-            <classesDirectory>\target\classes</classesDirectory>
+            <classesDirectory>/target/classes</classesDirectory>
           </configuration>
         </plugin>
         <plugin>
@@ -7623,7 +7623,7 @@
               <goal>site</goal>
             </goals>
             <configuration>
-              <outputDirectory>\target\site</outputDirectory>
+              <outputDirectory>/target/site</outputDirectory>
               <reportPlugins>
                 <reportPlugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -7639,7 +7639,7 @@
               <goal>deploy</goal>
             </goals>
             <configuration>
-              <outputDirectory>\target\site</outputDirectory>
+              <outputDirectory>/target/site</outputDirectory>
               <reportPlugins>
                 <reportPlugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -7650,7 +7650,7 @@
           </execution>
         </executions>
         <configuration>
-          <outputDirectory>\target\site</outputDirectory>
+          <outputDirectory>/target/site</outputDirectory>
           <reportPlugins>
             <reportPlugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -7662,7 +7662,7 @@
     </plugins>
   </build>
   <reporting>
-    <outputDirectory>\target\site</outputDirectory>
+    <outputDirectory>/target/site</outputDirectory>
   </reporting>
 </project>
 
