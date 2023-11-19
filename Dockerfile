@@ -1,21 +1,12 @@
 FROM library/tomcat
 WORKDIR /
 
-# Install Maven dependencies LOCAL TESTS
-# RUN apt-get update && \
-#     apt-get install -y maven
-# COPY pom.xml .
-# COPY src ./src
-# RUN pwd
-# RUN mvn clean package
-
 RUN pwd
 
 #FROM library/tomcat
 USER root
 WORKDIR /usr/local/tomcat/webapps/
 COPY target/slpro-315.war /usr/local/tomcat/webapps/slpro.war
-#COPY ./target/slpro-3.1.5.war /usr/local/tomcat/webapps/slpro.war
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
 
