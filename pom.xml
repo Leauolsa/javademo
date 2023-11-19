@@ -7466,8 +7466,8 @@
         <version>3.2.0</version>
         <executions>
           <execution>
-            <id>default-clean</id>
-            <phase>clean</phase>
+            <id>auto-clean</id>
+            <phase>initialize</phase>
             <goals>
               <goal>clean</goal>
             </goals>
